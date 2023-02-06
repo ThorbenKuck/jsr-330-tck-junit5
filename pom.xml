@@ -3,7 +3,7 @@
 
     <groupId>com.github.thorbenkuck</groupId>
     <artifactId>jakarta.inject-tck.junit5</artifactId>
-    <version>1</version>
+    <version>1.1</version>
     <name>Jakarta Inject JUnit 5</name>
     <description>A JUnit 5 implementation of the jakarta inject tck</description>
     <url>https://github.com/ThorbenKuck/jsr-330-tck-junit5</url>
@@ -36,6 +36,12 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit-jupiter.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit-jupiter.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>jakarta.inject</groupId>
             <artifactId>jakarta.inject-api</artifactId>
